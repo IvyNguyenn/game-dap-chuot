@@ -55,6 +55,57 @@
         android:layout_alignTop="@+id/imgvGreen2"
         android:layout_marginStart="74dp"
         android:contentDescription="TODO"
+        android:onClick="clickRed"
+        app:srcCompat="@drawable/mred" />
+    <ImageView
+        android:id="@+id/imgvRed2"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgvGreen2"
+        android:layout_marginStart="74dp"
+        android:contentDescription="TODO"
+        android:onClick="clickRed"
+        app:srcCompat="@drawable/mred" />
+    <ImageView
+        android:id="@+id/imgvRed3"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgvGreen2"
+        android:layout_marginStart="74dp"
+        android:contentDescription="TODO"
+        android:onClick="clickRed"
+        app:srcCompat="@drawable/mred" />
+    <ImageView
+        android:id="@+id/imgvRed4"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgvGreen2"
+        android:layout_marginStart="74dp"
+        android:contentDescription="TODO"
+        android:onClick="clickRed"
+        app:srcCompat="@drawable/mred" />
+    <ImageView
+        android:id="@+id/imgvRed5"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgvGreen2"
+        android:layout_marginStart="74dp"
+        android:contentDescription="TODO"
+        android:onClick="clickRed"
+        app:srcCompat="@drawable/mred" />
+    <ImageView
+        android:id="@+id/imgvRed6"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgvGreen2"
+        android:layout_marginStart="74dp"
+        android:contentDescription="TODO"
+        android:onClick="clickRed"
         app:srcCompat="@drawable/mred" />
 
 
@@ -64,5 +115,15 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Play" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp"
+
+        app:srcCompat="@drawable/mgreen" />
 
 </RelativeLayout>
