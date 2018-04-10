@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:padding="5dp"
         android:text="0"
         android:textSize="50dp" />
 
@@ -123,7 +124,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="43dp"
-
-        app:srcCompat="@drawable/mgreen" />
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/heart" />
 
 </RelativeLayout>
