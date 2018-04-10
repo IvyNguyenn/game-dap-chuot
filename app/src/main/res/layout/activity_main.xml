@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/txtvScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="50dp"
+        android:text="0"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/txtvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="11dp"
+        android:text="0"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imgvGreen1"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="47dp"
+        android:contentDescription="TODO"
+        android:onClick="OnClickImg"
+        app:srcCompat="@drawable/mgreen" />
+
+    <ImageView
+        android:id="@+id/imgvGreen2"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="188dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/mgreen" />
+
+    <ImageView
+        android:id="@+id/imgvRed1"
+        android:layout_width="103dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgvGreen2"
+        android:layout_marginStart="74dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/mred" />
+
+    <com.example.ivyng.demoanimation.GraphicView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgvGreen2"
+        android:layout_centerHorizontal="true"
+        android:text="Play" />
+
+</RelativeLayout>
